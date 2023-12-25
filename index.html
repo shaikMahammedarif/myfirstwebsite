@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="section1home">
+        <div class="bg-cointainer d-flex flex-column justify-content-end">
+            <div class="tourcard">
+                <h1 class="main-heading">Tourism </h1>
+                <p class="paragraph">Leading you from here to beyond... </p>
+                <button class="buttons" onclick="display('section2favoraiteplace')"> Get Started </button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="section2favoraiteplace">
+        <div class="bg-cointainers">
+            <h1 class="main-headings">Favourite Places</h1>
+            <div class="card1 d-flex flex-row " onclick="display('section3maldives')">
+                <div>
+                    <h1 class="card1-heading "> Maldives </h1>
+                    <p>" Maldives, with its dreamy white beaches covered in palm trees, turquoise lagoons and breathtaking ." </p>
+                </div>
+                <image src="https://images.pexels.com/photos/4366455/pexels-photo-4366455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card1-image" />
+            </div>
+            <div class="card1 d-flex flex-row " onclick="display('section4mysorepalace')">
+                <div>
+                    <h1 class="card1-heading "> Mysore Palace </h1>
+                    <p>"Mysore Palace, an architectural wonder that stands tall as a beacon of India's regal past." </p>
+                </div>
+                <image src="https://images.pexels.com/photos/17066967/pexels-photo-17066967/free-photo-of-mysore-palace-royal-dynasty-residence.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card1-image" />
+            </div>
+
+            <div class="card1 d-flex flex-row " onclick="display('section5kullumanali')">
+                <div>
+                    <h1 class="card1-heading "> Kullu Manali </h1>
+                    <p>"Manali is not just a destination, it's a journey into the heart of nature.." </p>
+                </div>
+                <image src="https://images.pexels.com/photos/14572850/pexels-photo-14572850.jpeg" class="card1-image" />
+            </div>
+            <div class="card1 d-flex flex-row " onclick="display('section6charminar')">
+                <div>
+                    <h1 class="card1-heading "> Charminar </h1>
+                    <p>"Where the past and present seamlessly merge, behold Charminar." </p>
+                </div>
+                <image src="https://upload.wikimedia.org/wikipedia/commons/7/71/Charminar_Hyderabad_1.jpg " class="card1-image" />
+            </div>
+            <button class="btn btn-dark" onclick="display('section1home')">
+                back
+            </button>
+        </div>
+
+    </div>
+
+
+
+    <div id="section3maldives">
+        <div class="bg-image">
+            <h1 class="main-headingss">Detailed view</h1>
+            <div class="cointainers ">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://images.pexels.com/photos/2525898/pexels-photo-2525898.jpeg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.pexels.com/photos/3155640/pexels-photo-3155640.jpeg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.pexels.com/photos/373458/pexels-photo-373458.jpeg" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="cointainers">
+                    <h1 class="card-headings">Maldives</h1>
+                    <p class="card-paras">The Maldives is an enchanting tropical paradise
+                        located in the Indian Ocean,
+                        southwest of Sri Lanka. It consists of 26 atolls,
+                        which are made up of over 1,000 coral islands.
+                        Known for its stunning white-sand beaches,
+                        crystal-clear turquoise waters, and vibrant coral reefs,
+                        the Maldives is a popular destination for honeymooners,
+                        divers, and luxury travelers.</p>
+                    <p class="card-paras">In recent years, the Maldives has been working on sustainable tourism practices to protect
+                        its natural environment and preserve its unique beauty.
+                        It remains a dream destination for travelers seeking luxury,
+                        relaxation, and underwater adventures in a breathtaking island paradise.</p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('section2favoraiteplace')">Back </button>
+        </div>
+    </div>
+
+    <div id="section4mysorepalace">
+        <div class="bg-image">
+            <h1 class="main-headingss">Detailed view</h1>
+            <div class="cointainers ">
+                <div id="mysorepalce" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#mysorepalce" data-slide-to="0" class="active"></li>
+                        <li data-target="#mysorepalce" data-slide-to="1"></li>
+                        <li data-target="#mysorepalce" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://images.pexels.com/photos/5480518/pexels-photo-5480518.jpeg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.pexels.com/photos/68389/pexels-photo-68389.jpeg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.pexels.com/photos/4124381/pexels-photo-4124381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#mysorepalce" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#mysorepalce" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="cointainers">
+                    <h1 class="card-headings">Mysore Palace</h1>
+                    <p class="card-paras">Mysore Palace, also known as the Amba Vilas Palace,
+                        is a stunning historical monument located in the city of Mysore in the southern Indian
+                        state of Karnataka.This magnificent palace is a prime example of Indo-Saracenic architecture
+                        and is renowned for its exquisite design and opulent interiors.</p>
+                    <p class="card-paras">Mysore Palace stands as a symbol of the city's rich cultural heritage and its royal past.
+                        It is not only a major tourist attraction but also a testament to the architectural and artistic prowess of the region.
+                        A visit to this palace is a must for anyone exploring the vibrant history and culture of Mysore.</p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('section2favoraiteplace')">Back </button>
+        </div>
+
+    </div>
+
+    <div id="section5kullumanali">
+        <div class="bg-image">
+            <h1 class="main-headingss">Detailed view</h1>
+            <div class="cointainers ">
+                <div id="kullumanali" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#kullumanali" data-slide-to="0" class="active"></li>
+                        <li data-target="#kullumanali" data-slide-to="1"></li>
+                        <li data-target="#kullumanali" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://images.pexels.com/photos/18009979/pexels-photo-18009979/free-photo-of-more-plains-leh-manali-highway.jpeg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.pexels.com/photos/7846474/pexels-photo-7846474.jpeg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.pexels.com/photos/7846484/pexels-photo-7846484.jpeg" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#kullumanali" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#kullumanali" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="cointainers">
+                    <h1 class="card-headings">Kullu Manali</h1>
+                    <p class="card-paras">Kullu and Manali, nestled in the breathtaking Himalayan region of Himachal Pradesh,
+                        India, are twin destinationsthat epitomize the beauty and charm of hill stations. Kullu, known as
+                        the "Valley of Gods," boasts lush green valleys and a vibrant cultural scene. </p>
+                    <p class="card-paras">Whether you're seeking tranquility amidst nature, thrilling adventures,
+                        or a cultural experience, Kullu and Manali offer a delightful blend that appeals to a wide range of travelers.
+                        These twin gems in the Himalayas promise an unforgettable journey into the heart of the mountains.</p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('section2favoraiteplace')">Back </button>
+        </div>
+    </div>
+
+
+    <div id="section6charminar">
+        <div class="bg-image">
+            <h1 class="main-headingss">Detailed view</h1>
+            <div class="cointainers ">
+                <div id="charminar" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#charminar" data-slide-to="0" class="active"></li>
+                        <li data-target="#charminar" data-slide-to="1"></li>
+                        <li data-target="#charminar" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://images.pexels.com/photos/9373357/pexels-photo-9373357.jpeg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.pexels.com/photos/9025814/pexels-photo-9025814.jpeg" class="d-block w-100" alt="..." />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.pexels.com/photos/12354645/pexels-photo-12354645.jpeg" class="d-block w-100" alt="..." />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#charminar" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#charminar" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <div class="cointainers">
+                    <h1 class="card-headings">Charminar</h1>
+                    <p class="card-paras">Charminar is an iconic historical monument located in the heart of Hyderabad, India.
+                        This stunning structure is renowned for its architectural grandeur and cultural significance.
+                        Built in 1591 by Sultan Muhammad Quli Qutb Shah, the Charminar is a magnificent example of Indo-Islamic architecture. </p>
+                    <p class="card-paras">It is reflecting the city's rich history and cultural diversity.</p>
+                </div>
+            </div>
+            <button class="btn btn-dark" onclick="display('section2favoraiteplace')">Back </button>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+</body>
+
+</html>
